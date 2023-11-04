@@ -1,8 +1,24 @@
 h1 {
-  color: rgb(21, 2, 2);
-  font-family: "Courier New", Courier, monospace;
+  color: rgb(208, 44, 44);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.button-container {
+  color: rgb(6, 1, 12);
+  display: flex;
+  justify-content: space-between;
+}
+.button {
+  width: 150px;
+  height: 20px;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #ef850c;
 }
 
-header {
-  background-color: blueviolet;
+div {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
 }
